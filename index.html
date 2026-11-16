@@ -163,7 +163,7 @@ footer .links a+a{margin-left:18px}
       <li><a href="#experience">Experience</a></li>
       <li class="opt"><a href="#skills">Skills</a></li>
       <li class="opt"><a href="#education">Education</a></li>
-      <li><a href="#resume">Résumé</a></li>
+      <li><a href="#resume">Resume</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </div>
@@ -180,7 +180,7 @@ footer .links a+a{margin-left:18px}
       <p class="sub reveal">Five years at Citi building Spring Boot microservices, Kafka event processing, and Spring Batch jobs for margin calculation. Focused on legacy modernization and agentic AI development.</p>
       <div class="ctas reveal">
         <a class="pill" href="mailto:loiyhabhab@gmail.com?subject=Hello%20Loiy">Get in touch</a>
-        <a class="more" href="#resume">View résumé</a>
+        <a class="more" href="#resume">View resume</a>
         <a class="more" href="https://www.linkedin.com/in/loiy-habhab" target="_blank" rel="noopener">LinkedIn</a>
       </div>
       <div class="loc reveal">AVP, Senior Software Developer at Citi · Tampa, FL · US Citizen</div>
@@ -364,16 +364,16 @@ footer .links a+a{margin-left:18px}
   <section class="alt" id="resume">
     <div class="wrap">
       <div class="head reveal" style="margin-bottom:36px">
-        <div class="eyebrow">Résumé</div>
+        <div class="eyebrow">Resume</div>
         <h2>All on one page.</h2>
         <p>Updated October 2026.</p>
       </div>
       <div class="ctas reveal">
         <a class="pill" href="LoiyHabhab_Resume.pdf" download="LoiyHabhab_Resume.pdf">Download PDF</a>
-        <button class="pill ghost" id="toggle-viewer" aria-expanded="false" aria-controls="viewer">View résumé</button>
+        <button class="pill ghost" id="toggle-viewer" aria-expanded="false" aria-controls="viewer">View resume</button>
       </div>
       <div class="viewer" id="viewer">
-        <iframe data-src="LoiyHabhab_Resume.pdf#view=FitH" title="Loiy Habhab résumé PDF"></iframe>
+        <iframe data-src="LoiyHabhab_Resume.pdf#view=FitH" title="Loiy Habhab resume PDF"></iframe>
       </div>
     </div>
   </section>
@@ -397,7 +397,7 @@ footer .links a+a{margin-left:18px}
   <div class="wrap">
     <div class="row">
       <span>Copyright © <span id="yr">2026</span> Loiy Habhab. All rights reserved.</span>
-      <span class="links"><a href="mailto:loiyhabhab@gmail.com">Email</a><a href="https://www.linkedin.com/in/loiy-habhab" target="_blank" rel="noopener">LinkedIn</a><a href="LoiyHabhab_Resume.pdf" download>Résumé</a></span>
+      <span class="links"><a href="mailto:loiyhabhab@gmail.com">Email</a><a href="https://www.linkedin.com/in/loiy-habhab" target="_blank" rel="noopener">LinkedIn</a><a href="LoiyHabhab_Resume.pdf" download>Resume</a></span>
     </div>
   </div>
 </footer>
@@ -423,7 +423,7 @@ toggle.addEventListener('click', () => {
   const open = viewer.classList.toggle('open');
   if (open && !frame.src) frame.src = frame.dataset.src;
   toggle.setAttribute('aria-expanded', open);
-  toggle.textContent = open ? 'Hide résumé' : 'View résumé';
+  toggle.textContent = open ? 'Hide resume' : 'View resume';
   if (open) viewer.scrollIntoView({ behavior: 'smooth', block: 'start' });
 });
 
